@@ -1,0 +1,63 @@
+
+.messages-and-cards-container {
+    border-left: 3px solid black;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.messages-container {
+    height: 40%;
+}
+
+.message-box {
+    height: 400px;
+    width: 300px;
+    border: 1px solid #36454F;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.message-content-container {
+    border: 1px solid #36454F;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    margin-top: 8px;
+}
+
+.my-cards-container {
+    height: 60%;
+}
+
+.my-cards-inner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.output-row-one {
+    justify-content: center;
+}
+
+.output-row-two {
+    justify-content: space-between;
+}
+
+.output-row-three {
+    justify-content: center;
+}
